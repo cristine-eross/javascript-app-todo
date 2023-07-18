@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(133, 76, 199);
+    font-size: 10rem;
+    opacity: 0.4;
+    text-shadow: 2px 2px 2px goldenrod;
+}
+
+form {
+    max-width: 100%;
+    width: 400px;
+    margin: auto;
+}
+
+.input {
+    padding: 1rem 2rem;
+    margin: 0.5rem auto;
+    display: block;
+    width: 100%;
+    border: 1px solid goldenrod;
+    font-size: 1.2rem;
+    color: rgba(71, 7, 71, 0.663);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.input:focus {
+    outline: thin purple;
+}
+
+.input::placeholder {
+    color: rgb(182, 148, 212);
+    text-align: center;
+    font-size: 1rem;
+}
+
+button {
+    background-color: rgb(182, 148, 212);
+    border: none;
+    padding: 1rem 2rem;
+    color: whitesmoke;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #C8931A;
+}
+
+.list {
+    width: 400px;
+    min-height: 400px;
+    height: auto;
+    border: 1px solid goldenrod;
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(71, 7, 71, 0.663)
+}
+
+.check {
+    width: 2rem;
+    height: 2rem;
+    margin: 10px;
+    border-radius: 5px;
+}
